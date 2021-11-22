@@ -9,14 +9,45 @@
 </head>
 <body>
     <h1 id="title">Survey Form</h1>
-    <p id="description">###</p>
+    <p id="description">This is a survey to see what car is the most popular.</p>
     <form id="survey-form">
         <label for="name">Name</label><br>
-        <input type="text" id="name" name="name" placeholder="Jalen Lewis">
+        <input type="text" id="name" name="name" placeholder="Jalen Lewis"><br>
         <label for="email">Email</label><br>
-        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+        <input type="text" id="email" name="email" placeholder="example@gmail.com"><br>
         <label for="Pnumber">Phone Number</label><br>
-        <input type="text" id="phone" name="Pnumber" placeholder="012-345-6789">
+        <input type="text" id="phone" name="Pnumber" placeholder="012-345-6789"><br>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="Ferrari">Ferrari</option>
+            <option value="Lamborghini">Lamborghini</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="BMW">BMW</option>
+        </select><br>
+        <label for="colors">Choose a color for your car:</label>
+        <select id="colors" name="colors">
+            <option value="Red">Red</option>
+            <option value="Orange">Orange</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Purple">Purple</option>
+            <option value="Pink">Pink</option>
+            <option value="White">White</option>
+            <option value="Grey">Grey</option>
+            <option value="Black">Black</option>
+        </select>
+        <p>Choose a paint job for your selected car:</p>
+        <input type="radio" id="solid" name="solid-paint" value="Solid">
+        <label for="solid">Solid</label><br>
+        <input type="radio" id="metallic" name="metallic-paint" value="Metallic">
+        <label for="metallic">Metallic</label><br>
+        <input type="radio" id="pearlescent" name="pearlescent-finish" value="Pearlescent">
+        <label for="pearlescent">Pearlescent Finish</label><br>
+        <input type="radio" id="matte" name="matte-finish" value="Matte">
+        <label for="matte">Matte Finish</label><br>
+        <input type="radio" id="carbon" name="carbon-finish" value="Carbon">
+        <label for="carbon">Carbon Finish</label>
     </form>
 </body>
 </html>
